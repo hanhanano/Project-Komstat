@@ -22,7 +22,8 @@ library(readr)         # Membaca file CSV dengan parsing yang cepat dan akurat
 library(RColorBrewer)  # Palet warna yang telah didefinisi untuk visualisasi
 library(viridis)       # Skema warna yang colorblind-friendly dan perceptually uniform
 
-# manifest.json
+# Library untuk manifest.json
+library(rsconnect)
 writeManifest()
 # ==============================================================================
 # BAGIAN 2: STRUKTUR TAMPILAN APLIKASI
