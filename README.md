@@ -154,7 +154,3 @@ Validasi distribusi normal data.
 
 ---
 
-## 📸 Dokumentasi Dashboard  
-
-_(Opsional, bisa ditambahkan screenshot dashboard di sini)_
-
