@@ -5,7 +5,7 @@ account: komstat-12
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15027806
-bundleId: 10559308
+bundleId: 10559354
 url: https://komstat-12.shinyapps.io/project-komstat/
 version: 1
 asMultiple: FALSE
