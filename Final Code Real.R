@@ -759,6 +759,16 @@ ui <- dashboardPage(
       tabItem(tabName = "guide",
               fluidRow(
                 
+                #Video
+                box(
+                  title = "Video Panduan", status = "primary", solidHeader = TRUE, width = 12,
+                  div(style = "text-align: center;",
+                    fluidPage(
+                      tags$iframe(width="960", height="600", src="https://www.youtube.com/embed/q1g2IUE4fa4?si=N8x5_WD9Zen1NcM4", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture")
+                    )
+                  )
+                ),
+                
                 # 1. Overview
                 box(
                   title = "Selamat Datang di Dashboard Analisis Iklim", status = "primary", solidHeader = TRUE, width = 12,
