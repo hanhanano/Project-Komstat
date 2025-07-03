@@ -1,13 +1,13 @@
-# 🌍 Dashboard Analisis Dampak Iklim (1993-2023)
+# Dashboard Analisis Dampak Iklim (1993-2023)
 
-## 📖 Tentang Dashboard
+## Tentang Dashboard
 
 Dashboard ini dirancang untuk membantu menganalisis hubungan kompleks antara aktivitas manusia dan perubahan iklim global.  
 Menggunakan data periode **1993-2023**, pengguna dapat mengeksplorasi dampak **pertumbuhan penduduk** dan **emisi CO₂** terhadap **perubahan suhu global** dan **kenaikan permukaan laut**.
 
 ---
 
-## 🎯 Tujuan Penelitian
+## Tujuan Penelitian
 
 - **Mengidentifikasi korelasi** antara pertumbuhan penduduk dan emisi CO₂ terhadap suhu permukaan bumi dan ketinggian permukaan laut.
 - **Menganalisis dampak** kedua faktor terhadap variabel iklim.
@@ -16,7 +16,7 @@ Menggunakan data periode **1993-2023**, pengguna dapat mengeksplorasi dampak **p
 
 ---
 
-## 📂 Persiapan Data
+## Persiapan Data
 
 Siapkan 3 file data berikut:
 
@@ -29,13 +29,13 @@ Siapkan 3 file data berikut:
 - Klik tombol **Load Data**
 - Verifikasi statistik deskriptif
 
-> 📌 **Tips:** Pastikan format data valid dan tidak ada missing values sebelum melanjutkan.
+> **Tips:** Pastikan format data valid dan tidak ada missing values sebelum melanjutkan.
 
 ---
 
-## 📊 Fitur Analisis
+## Fitur Analisis
 
-### 1️⃣ Analisis Korelasi  
+### 1. Analisis Korelasi  
 Mengukur kekuatan hubungan antar dua variabel.
 
 **Metode:**
@@ -56,7 +56,7 @@ Mengukur kekuatan hubungan antar dua variabel.
 
 ---
 
-### 2️⃣ Analisis Regresi (BETA)  
+### 2. Analisis Regresi (BETA)  
 Membangun model prediktif.
 
 **Jenis Model:**
@@ -73,11 +73,11 @@ Membangun model prediktif.
   - RMSE/MAE
   - Diagnostik residual
 
-> ⚠️ **Catatan:** Belum mendukung regresi robust & outlier handling otomatis.
+> **Catatan:** Belum mendukung regresi robust & outlier handling otomatis.
 
 ---
 
-### 3️⃣ Uji Hipotesis  
+### 3. Uji Hipotesis  
 Menguji signifikansi hubungan antar variabel.
 
 **Hipotesis:**
@@ -93,7 +93,7 @@ Menguji signifikansi hubungan antar variabel.
 
 ---
 
-### 4️⃣ Analisis Global  
+### 4. Analisis Global  
 Melihat tren iklim global agregat.
 
 **Fitur:**
@@ -103,7 +103,7 @@ Melihat tren iklim global agregat.
 
 ---
 
-### 5️⃣ Peta Interaktif  
+### 5. Peta Interaktif  
 Visualisasi spasial data iklim.
 
 **Langkah:**
@@ -115,7 +115,7 @@ Visualisasi spasial data iklim.
 
 ---
 
-### 6️⃣ Eksplorasi Data  
+### 6. Eksplorasi Data  
 Tabel interaktif data mentah.
 
 **Fitur:**
@@ -125,7 +125,7 @@ Tabel interaktif data mentah.
 
 ---
 
-### 7️⃣ Uji Kenormalan  
+### 7. Uji Kenormalan  
 Validasi distribusi normal data.
 
 **Metode:**
@@ -137,16 +137,11 @@ Validasi distribusi normal data.
 - Pilih metode uji
 - Interpretasi p-value, histogram, Q-Q plot, kesimpulan
 
-> 📌 Jika data tidak normal, gunakan transformasi data atau metode non-parametrik.
+> Jika data tidak normal, gunakan transformasi data atau metode non-parametrik.
 
 ---
 
-## 📅 Data Periode  
-**1993 - 2023**
-
----
-
-## 📬 Catatan Tambahan
+## Catatan Tambahan
 
 - Cek kualitas data sebelum analisis.
 - Hasil regresi sementara, gunakan regresi robust di software statistik untuk finalisasi.
