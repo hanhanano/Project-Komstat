@@ -22,8 +22,13 @@ library(readr)         # Membaca file CSV dengan parsing yang cepat dan akurat
 library(RColorBrewer)  # Palet warna yang telah didefinisi untuk visualisasi
 library(viridis)       # Skema warna yang colorblind-friendly dan perceptually uniform
 
-# Library untuk manifest.json
+# Library untuk hosting
 library(rsconnect)
+rsconnect::setAccountInfo(
+  name='komstat-12', 
+  token='F0304BDDB9AE2B005EEC8D127CAC3DE5', 
+  secret='PcMly6f1VnMMO0jlAAXGicsoshAS8MELeFXoVwt0'
+  )
 writeManifest()
 # ==============================================================================
 # BAGIAN 2: STRUKTUR TAMPILAN APLIKASI
