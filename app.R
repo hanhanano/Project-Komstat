@@ -766,9 +766,15 @@ ui <- dashboardPage(
                 box(
                   title = "Video Panduan", status = "primary", solidHeader = TRUE, width = 12,
                   div(style = "text-align: center;",
-                    fluidPage(
-                      tags$iframe(width="960", height="600", src="https://www.youtube.com/embed/q1g2IUE4fa4?si=N8x5_WD9Zen1NcM4", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture")
-                    )
+                      tags$div(style = "position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;",
+                               tags$iframe(
+                                 src = "https://www.youtube.com/embed/q1g2IUE4fa4?si=N8x5_WD9Zen1NcM4",
+                                 frameborder = "0",
+                                 allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                                 allowfullscreen = NA,
+                                 style = "position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                               )
+                      )
                   )
                 ),
                 
