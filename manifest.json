@@ -2982,7 +2982,7 @@
       "checksum": "30b26b89c01fb53981d627d40176314d"
     },
     "app.R": {
-      "checksum": "6240b9c4737576e806f346124694adf7"
+      "checksum": "9ef37420a74fa21faf67aec451e5b7fb"
     },
     "Dataset/Clear/01. Data Iklim Gabungan (Populasi).csv": {
       "checksum": "38f9785baf7582e48012776e19346e52"
@@ -3011,7 +3011,10 @@
     "README.md": {
       "checksum": "1337a7e7e99940110afe1993a842c014"
     },
-    "Userguide/README.txt": {
+    "Userguide (video included)/Panduan Penggunaan Dashboard Analisis Statistik Interaktif.mp4": {
+      "checksum": "5999b5f133ce072d3810fec92afc787b"
+    },
+    "Userguide (video included)/README.txt": {
       "checksum": "7535a187e211302e8252424c9758ef77"
     }
   },

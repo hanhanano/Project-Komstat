@@ -29,7 +29,7 @@ rsconnect::setAccountInfo(
   token='F0304BDDB9AE2B005EEC8D127CAC3DE5', 
   secret='PcMly6f1VnMMO0jlAAXGicsoshAS8MELeFXoVwt0'
   )
-writeManifest()
+writeManifest() # Cukup dipanggil sekali saja
 # ==============================================================================
 # BAGIAN 2: STRUKTUR TAMPILAN APLIKASI
 # ==============================================================================
@@ -773,7 +773,7 @@ ui <- dashboardPage(
                   div(style = "text-align: center;",
                       tags$div(style = "position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;",
                                tags$iframe(
-                                 src = "https://www.youtube.com/embed/q1g2IUE4fa4?si=N8x5_WD9Zen1NcM4",
+                                 src = "https://www.youtube.com/embed/876DwTYoGC0?si=GHzIEWQZzkMoXZeM",
                                  frameborder = "0",
                                  allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                                  allowfullscreen = NA,
