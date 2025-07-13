@@ -28,25 +28,25 @@ Menggunakan data periode **1993-2023**, pengguna dapat mengeksplorasi dampak **p
 ##    Kolom               Tipe Data          Contoh          Keterangan
 File1
 -    country         ->       String  ->    Indonesia
--    year                    int         2020
--    population             decimal      128678
--    co2                    decimal      1.478
--    temp_change            decimal      0.123
--    Plog_pop               decimal      0.40          persentase populasi
--    Plog_co2               decimal      0.02          persentase co2
--    PER001                 decimal      
--    ln_population          decimal      4.5
--    ln_co2                 decimal      0.3 
--    ln_temp_change         decimal      0.3
--    ln_co2percapita        decimal      0.1  
+-    year            ->        int    ->     2020
+-    population      ->       decimal ->     128678
+-    co2             ->       decimal ->     1.478
+-    temp_change     ->       decimal ->     0.123
+-    Plog_pop        ->       decimal ->     0.40     ->     persentase populasi
+-    Plog_co2        ->       decimal ->     0.02     ->     persentase co2
+-    PER001          ->       decimal ->     0.2      ->     persentase c02 perkapita
+-    ln_population   ->       decimal ->     4.5
+-    ln_co2          ->       decimal ->     0.3 
+-    ln_temp_change  ->       decimal ->     0.3
+-    ln_co2percapita ->       decimal ->     0.1  
 File2 
--    FULL_NAME              Stirng       Indonesia
--    lat                    decimal       33.0            latitude      
--    lng                    decimal       66.0            longitude      
+-    FULL_NAME                  Stirng       Indonesia
+-    lat       ->             decimal   ->    33.0     ->       latitude      
+-    lng       ->             decimal   ->    66.0     ->      longitude      
 File3 
--    Sea_level              decimal       -32.8
--    Kenaikan               decimal       0.001
--    ln_Sea_level           decimal       -3.35
+-    Sea_level      ->        decimal  ->     -32.8
+-    Kenaikan       ->        decimal  ->     0.001
+-    ln_Sea_level   ->        decimal  ->     -3.35
 ## Persiapan Data
 
 Siapkan 3 file data berikut:
