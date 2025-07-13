@@ -25,9 +25,9 @@ Menggunakan data periode **1993-2023**, pengguna dapat mengeksplorasi dampak **p
 -   Analisis Inferensial	numerik/kategorik, minimal 2 kelompok data	  Numerik, Kategorik                                            
 
 ## Metadata Struktural
-##    Kolom               Tipe Data      Contoh          Keterangan
+##    Kolom               Tipe Data          Contoh          Keterangan
 File1
--    country                String      Indonesia
+-    country         ->       String  ->    Indonesia
 -    year                    int         2020
 -    population             decimal      128678
 -    co2                    decimal      1.478
